@@ -1,0 +1,15 @@
+Plan de ataque
+
+Vamos a realizar algunas mejoras en la aplicación de inicio:
+a.- Separar el contenido de la pagina inicial en 3 componentes:
+    c1- app-box en app/shared
+    c2- home en app/pages
+    c3- links en app/pages
+b.- Crear dos rutas en app-routing (home y link)
+c.- Convertir el top-bar de app-box en un menu con dos links
+
+Para eso vamos a realizar los siguientes pasos:
+P1: hacer el scaffolding de componentes
+P2: distribuir el codigo en los componentes (en html y css)
+P3: modificar el routing
+p4: crear los links

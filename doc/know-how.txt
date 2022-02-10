@@ -1,0 +1,11 @@
+¿Que utilizamos y aprendimos?
+
+- como crear una app desde el CLI
+- como crear un componente desde el CLI
+- como asignar contenido de html y css en los componentes
+- uso de selector para combinar componentes
+- con los dos ultimos tenemos cubierto los tres aspectos basicos de un componente:
+    . selector
+    . templateUrl
+    . styleUrls
+- configurar rutas en app-routing y uso de router-outlet

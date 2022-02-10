@@ -10,14 +10,17 @@ new file: doc/log4dev.txt
 git add . && git commit -m "log4dev"
 git add . && git commit --amend --no-edit
 
-//*** create-components
+//*** 1-script: create-components (scaffolding)
 ng g c shared/app-box --skip-tests
 ng g c pages/home --skip-tests
 ng g c pages/links --skip-tests
-git add . && git commit -m "create components"
+git add . && git commit -m "scaffolding (create components)"
 
-//task: copy app.component to app-box, home, links
+//*** 2-task: copy app.component to app-box, home, links
 git add . && git commit -m "migrate html to components"
 
 git remote add origin https://github.com/ChristianRoig/app-starter.git
 git push -u origin main
+
+//*** 2-task: configure app-routing
+git add . && git commit -m "configure app-routing"
