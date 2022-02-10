@@ -262,34 +262,6 @@
     width: 1920px;
   }
 
-  /* app-box Styles */
-  .toolbar #home-link, 
-  .toolbar #ref-link, 
-  .toolbar #next-link, 
-  .toolbar #links-link {
-    height: 40px;
-    opacity: 0.8;
-    color: white;
-  }
-
-  .toolbar #home-link {
-    margin-left: 96px;
-  }
-
-  .toolbar #ref-link,
-  .toolbar #next-link,
-  .toolbar #links-link {
-    margin-left: 32px;
-  }
-
-  .toolbar #home-link:hover,
-  .toolbar #ref-link:hover,
-  .toolbar #next-link:hover,
-  .toolbar #links-link:hover {
-    opacity: 1;
-    color: white;
-  }
-
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
     .card-container > *:not(.circle-link) ,

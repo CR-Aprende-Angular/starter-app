@@ -27,3 +27,9 @@ git add . && git commit -m "configure app-routing"
 
 //*** 4-task: define app links
 git add . && git commit -m "define app links"
+
+//*** 5-task: split links en references and next
+ng g c pages/references --skip-tests
+ng g c pages/next --skip-tests
+
+git add . && git commit -m "split links en references and next"

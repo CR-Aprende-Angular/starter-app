@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { AppBoxComponent } from './shared/app-box/app-box.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LinksComponent } from './pages/links/links.component';
+import { ReferencesComponent } from './pages/references/references.component';
+import { NextComponent } from './pages/next/next.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppBoxComponent,
     HomeComponent,
-    LinksComponent
+    LinksComponent,
+    ReferencesComponent,
+    NextComponent
   ],
   imports: [
     BrowserModule,
