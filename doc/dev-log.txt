@@ -22,5 +22,8 @@ git add . && git commit -m "migrate html to components"
 git remote add origin https://github.com/ChristianRoig/app-starter.git
 git push -u origin main
 
-//*** 2-task: configure app-routing
+//*** 3-task: configure app-routing
 git add . && git commit -m "configure app-routing"
+
+//*** 4-task: define app links
+git add . && git commit -m "define app links"

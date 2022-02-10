@@ -12,4 +12,4 @@ Para eso vamos a realizar los siguientes pasos:
 P1: hacer el scaffolding de componentes
 P2: distribuir el codigo en los componentes (en html y css)
 P3: modificar el routing
-p4: crear los links
+p4: crear los links en el top nav (y desde home a links)

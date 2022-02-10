@@ -262,6 +262,27 @@
     width: 1920px;
   }
 
+  /* app-box Styles */
+  .toolbar #home-link {
+    height: 40px;
+    margin-left: 96px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .toolbar #links-link {
+    height: 40px;
+    margin-left: 32px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .toolbar #home-link:hover,
+  .toolbar #links-link:hover {
+    opacity: 1;
+    color: white;
+  }
+
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
     .card-container > *:not(.circle-link) ,
