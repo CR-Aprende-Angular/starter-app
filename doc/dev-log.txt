@@ -28,8 +28,13 @@ git add . && git commit -m "configure app-routing"
 //*** 4-task: define app links
 git add . && git commit -m "define app links"
 
-//*** 5-task: split links en references and next
+//*** 5-script+task: split links en references and next
 ng g c pages/references --skip-tests
 ng g c pages/next --skip-tests
+//task: split links 
+git add . && git commit -m "split links in references and next"
 
-git add . && git commit -m "split links en references and next"
+//*** 6-script+task: add 404 page
+ng g c shared/not-found --skip-tests
+//task: fill html and add to route
+git add . && git commit -m "add 404 page"

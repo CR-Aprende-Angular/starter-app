@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LinksComponent } from './pages/links/links.component';
 import { ReferencesComponent } from './pages/references/references.component';
 import { NextComponent } from './pages/next/next.component';
+import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NextComponent } from './pages/next/next.component';
     HomeComponent,
     LinksComponent,
     ReferencesComponent,
-    NextComponent
+    NextComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
